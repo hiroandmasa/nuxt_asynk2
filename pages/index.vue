@@ -3,8 +3,8 @@
     <div>
       <!-- {{ users[0].id}}, {{ users[0].name}} -->
       <ul>
-          <li v-for="user in users" :kye="user.id">
-              {{ user.id }}, {{ user.name }}
+          <li v-for="user in users">
+              {{ user.id }}, {{ user.name }}, {{ user.company.name }}
           </li>
       </ul>
     </div>
