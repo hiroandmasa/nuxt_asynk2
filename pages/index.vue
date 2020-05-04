@@ -9,6 +9,10 @@
       </ul>
       <img src="~/assets/monster06.png">
     </div>
+    <div>
+        <p>{{ $store.state.message }}</p>
+        <button v-on:click="$store.commit('updateMessage')">Update</button>
+    </div>
   </div>
 </template>
 
