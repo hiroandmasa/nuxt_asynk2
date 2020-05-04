@@ -9,6 +9,9 @@
       </ul>
       <img src="~/assets/monster06.png">
     </div>
+    <div>
+        <p>{{ $store.state.message }}</p>
+    </div>
   </div>
 </template>
 
